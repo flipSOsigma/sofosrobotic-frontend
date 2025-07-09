@@ -6,7 +6,7 @@ const BorderedButton = ({
   text,
   swap,
   iconPlacemment=true,
-  iconHover=true
+  iconHover=true,
 }:{
   className?: string
   text: string

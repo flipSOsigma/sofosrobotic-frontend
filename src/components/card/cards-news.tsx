@@ -6,20 +6,22 @@ import { truncateWords } from '@/lib/functions'
 
 const CardsNews = ({
     className,
-    dataItem
+    dataItem,
+    role,
   } : {
     className?: string, 
-    dataItem?: INewsItem
+    dataItem?: INewsItem,
+    role?: string
   }) => {
 
   return (
-    <Link href={"/news/" + dataItem?.uniqueId} className={'flex flex-col items-start text-start gap-2 w-full max-w-full xl:max-w-full md:max-w-sm' + " " + className}>
+    <Link href={role === 'admin' ? "/dashboard/news/" + dataItem?.uniqueId : "/news/" + dataItem?.uniqueId } className={'flex flex-col items-start text-start gap-2 w-full max-w-full xl:max-w-full md:max-w-sm' + " " + className}>
       <div className="w-full aspect-video overflow-hidden object-cover object-center bg-white">
-        <img src={dataItem?.imagePath ? dataItem.imagePath : "https://dummyimage.com/1080x1080"} alt="" className='object-center object-cover w-full h-full' />
+        <img src={dataItem?.imagePath ? dataItem.imagePath[0] : "https://dummyimage.com/1080x1080"} alt="" className='object-center object-cover w-full h-full' />
       </div>
-      <BadgeTopic text="Project Topic" className="mt-5"/>
-      <h1 className="text-2xl">{dataItem?.title}</h1>
-      <p className='whitespace-normal text-gray-600'>{dataItem?.description && truncateWords(dataItem.description)}</p>
+      <BadgeTopic text={dataItem?.category || "category"} className="mt-5"/>
+      <h1 className="text-2xl">{dataItem?.title || "The data is being on load ..."}</h1>
+      <p className='whitespace-normal text-gray-600'>{dataItem?.excerpt && truncateWords(dataItem.description)}</p>
     </Link>
   )
 }

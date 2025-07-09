@@ -1,0 +1,33 @@
+[
+  {
+    "uniqueId": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+    "username": "adminUser1",
+    "email": "admin1@example.com",
+    "role": "admin"
+  },
+  {
+    "uniqueId": "9f8c8f65-ed88-4b8c-a3f9-8c759c3d21e2",
+    "username": "adminUser2",
+    "email": "admin2@example.com",
+    "role": "admin"
+  },
+  {
+    "uniqueId": "e3c9a4b7-1e4f-4d5a-b1e5-6c7f9f4b2b8d",
+    "username": "adminUser3",
+    "email": "admin3@example.com",
+    "role": "admin"
+  },
+  {
+    "uniqueId": "7a9e2b58-3d92-4a4a-a4d7-9e8b2c6f4e5f",
+    "username": "adminUser4",
+    "email": "admin4@example.com",
+    "role": "admin"
+  },
+  {
+    "uniqueId": "3b5d9e6c-5f4b-4c3b-a2c1-4e7f9d8e7c2a",
+    "username": "adminUser5",
+    "email": "admin5@example.com",
+    "role": "admin"
+  }
+]
+
