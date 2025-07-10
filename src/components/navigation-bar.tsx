@@ -25,8 +25,8 @@ export default function NavigationBar({className}: {className:string}) {
   ]
 
   return (
-    <nav className={"w-full " + " " + className}>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <nav className={"w-full bg-background " + " " + className}>
+      <div className="max-w-7xl mx-auto px-4 md:px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo/Brand */}
           <div className="flex-shrink-0">
@@ -52,7 +52,7 @@ export default function NavigationBar({className}: {className:string}) {
             <ThemeToggle />
 
             {/* Login Button */}
-            <Link href="/login">
+            <Link href="/dashboard">
               <BorderedButton text={"Login"} swap={true} className="bg-white dark:bg-black"/>
             </Link>
           </div>

@@ -1,4 +1,4 @@
-export default function ProjectsLayout({
+export default function NewsLayout({
   children,
 }: {
   children: React.ReactNode
