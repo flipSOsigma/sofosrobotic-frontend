@@ -111,7 +111,7 @@ const Page = () => {
         throw new Error(errorData.description || "Failed to update news");
       }
 
-      const result = await res.json();
+      // const result = await res.json();
       alert("News updated successfully!");
       router.push("/dashboard/news");
     } catch (error) {

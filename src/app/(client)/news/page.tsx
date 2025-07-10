@@ -2,7 +2,7 @@ import AnimatedText from "@/components/animation/animation-bouncy-text";
 import Particles from "@/components/background/background-particles";
 import BorderedButton from "@/components/bordered-button";
 import NavigationBar from "@/components/navigation-bar";
-import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
 import LoadNews from "@/lib/loader/load-news";
 
 export const metadata = {
