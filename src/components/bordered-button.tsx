@@ -6,13 +6,11 @@ const BorderedButton = ({
   text,
   swap,
   iconPlacemment=true,
-  iconHover=true,
 }:{
   className?: string
   text: string
   swap?: boolean
   iconPlacemment?: boolean
-  iconHover?: boolean
 }) => {
   return (
     <button className={'flex gap-4 px-4 py-2 border group border-black dark:border-gray-300 text-sm items-center' + " " + className + " " + (swap ? 'flex-row-reverse' : '')}>
