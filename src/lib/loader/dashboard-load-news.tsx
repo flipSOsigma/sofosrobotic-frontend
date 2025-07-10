@@ -3,7 +3,6 @@
 import { useEffect, useState } from 'react';
 import { INewsItem } from '../interfaces';
 import CardsNews from '@/components/card/cards-news';
-import Link from 'next/link';
 
 const DashboardLoadNews = ({pagination, className, pageIndicator = true}: {pagination: number, className?:string, pageIndicator?:boolean}) => {
   const [newsData, setNewsData] = useState<INewsItem[]>([]);

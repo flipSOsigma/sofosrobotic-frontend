@@ -3,6 +3,7 @@ import BadgeTopic from '../badge/badge-topic'
 import Link from 'next/link'
 import { INewsItem } from '@/lib/interfaces'
 import { truncateWords } from '@/lib/functions'
+import Image from 'next/image'
 
 const CardsNews = ({
     className,
@@ -17,7 +18,7 @@ const CardsNews = ({
   return (
     <Link href={role === 'admin' ? "/dashboard/news/" + dataItem?.uniqueId : "/news/" + dataItem?.uniqueId } className={'flex flex-col items-start text-start gap-2 w-full max-w-full xl:max-w-full md:max-w-sm' + " " + className}>
       <div className="w-full aspect-video overflow-hidden object-cover object-center bg-white">
-        <img src={dataItem?.imagePath ? dataItem.imagePath[0] : "https://dummyimage.com/1080x1080"} alt="" className='object-center object-cover w-full h-full' />
+        <Image src={dataItem?.imagePath ? dataItem.imagePath[0] : "https://dummyimage.com/1080x1080"} alt="" className='object-center object-cover w-full h-full' />
       </div>
       <BadgeTopic text={dataItem?.category || "category"} className="mt-5"/>
       <h1 className="text-2xl">{dataItem?.title || "The data is being on load ..."}</h1>
