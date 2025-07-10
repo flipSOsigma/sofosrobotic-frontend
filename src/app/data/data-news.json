@@ -1,0 +1,41 @@
+[
+  {
+    "title": "This is the news for app Testing, idk if it gonna work",
+    "category": "udinus",
+    "date": "2025-07-09",
+    "authorId": "John-Doe",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sodales tempor urna, ut gravida elit consequat non. Pellentesque aliquam nibh vel fringilla cursus. Sed vitae hendrerit felis. Etiam blandit arcu tempus pretium laoreet. Integer tempus sed odio et tempus. Phasellus felis nulla, eleifend ut leo facilisis, tempus luctus eros. Etiam et venenatis turpis. Curabitur lobortis porttitor mi, sed egestas tellus malesuada imperdiet. Nullam vehicula ligula quam, in tincidunt augue pulvinar non. Ut non nulla sollicitudin, blandit nulla eu, dignissim tortor. Nullam ac tempus urna, porta maximus ligula. Sed maximus odio vel enim tincidunt congue vel ac lacus. Sed scelerisque erat id felis rhoncus, nec viverra diam sodales.",
+    "imagePath": [
+      "/uploads/61110e5f31b344acaa668114f65cce9a-1752084404024-874920014.png"
+    ],
+    "description": "This is the newest news.",
+    "uniqueId": "newest-news",
+    "excerpt": "This is the newest news.",
+    "status": "published",
+    "publishDate": "2025-07-09T18:15",
+    "updatedAt": "2025-07-09T18:15:16.804Z",
+    "views": "16",
+    "existingImages": "/uploads/61110e5f31b344acaa668114f65cce9a-1752084404024-874920014.png",
+    "images": {}
+  },
+  {
+    "title": "Sofostrobotic just and Semarang Pemkot make a robotic competition Its new News",
+    "category": "Other",
+    "date": "2025-07-09",
+    "authorId": "John-Doe",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sodales tempor urna,",
+    "imagePath": [
+      "https://picsum.photos/1080/1080?random=498",
+      "https://picsum.photos/1080/1080?random=190"
+    ],
+    "description": "this is the description edit testing, this word should be coming up when i open the news page",
+    "uniqueId": "1bea40a8744142d53ed0b7fe2105da3232ffbcb20c4947e196a02e1abe9c172d",
+    "excerpt": "this is the description edit testing, this word should be coming up when i open the news page",
+    "status": "published",
+    "publishDate": "2025-07-09T18:21",
+    "updatedAt": "2025-07-09T18:21:23.387Z",
+    "views": "7",
+    "createdAt": "2025-07-09T17:36:49.275Z",
+    "existingImages": "https://picsum.photos/1080/1080?random=190"
+  }
+]

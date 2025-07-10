@@ -1,12 +1,15 @@
-
 export interface INewsItem {
-  id: number;
   title: string;
   category: string;
   date: string;
-  author: string;
+  authorId: string;
   content: string;
-  imagePath: string;
+  imagePath: string[];
   description: string;
   uniqueId: string;
+  excerpt: string;
+  status: string;
+  publishDate?: string;
+  updatedAt?: string;
+  views?: number;
 }
